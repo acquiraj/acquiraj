@@ -1,121 +1,108 @@
-# 👋 Hi, I'm Raj Vaghasia
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Raj%20Vaghasia&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Business%20Analyst&descSize=18&descAlignY=55&textBg=false"/>
 
-<div align="center">
-  <p><strong>Data Science & AI | Business Intelligence | Full-Stack Development</strong></p>
-  <p>Master of Management in Business Data Analytics @ University of Windsor</p>
-  <p>Business Intelligence Admin @ HUB International</p>
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=GOD%20SPEED" alt="Typing introduction" />
+</p>
 
----
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=Vraj04">
+    <img src="https://komarev.com/ghpvc/?username=Vraj04&label=Profile%20views&color=00FFFF&style=flat-square" alt="Vraj04's profile views" />
+  </a>
+</p>
 
-## 🎯 About Me
+<img src="https://i.pinimg.com/originals/64/72/36/647236fc1c3aec4ac575c4ed5a8ca524.gif" alt="Banner" width="100%" />
 
-Essential foundation in **Data Science & AI** with expertise in transforming complex data into actionable insights. Currently pursuing a Master of Management in Business Data Analytics at the University of Windsor while working as a Business Intelligence Admin at HUB International. Passionate about leveraging data-driven solutions to solve real-world business challenges.
-
-### 💬 Ask me about:
-- **Python** | **HTML** | **MySQL** | **PowerBI** | **AI Development**
-
-### 📧 Reach me at:
-- **Email:** rajvaghasia256@gmail.com
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Vraj10)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vraj04)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaghas13@uwindsor.ca)
-
-</div>
-
----
-
-## 🛠️ Tech Stack & Skills
-
-<details open>
-<summary><strong>📋 Languages</strong></summary>
-
-| Skill | Proficiency |
-|-------|------------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ⭐⭐⭐⭐⭐ |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | ⭐⭐⭐ |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | ⭐⭐⭐ |
-| ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) | ⭐⭐⭐⭐ |
-
-</details>
-
-<details open>
-<summary><strong>🔧 Backend & Databases</strong></summary>
-
-| Skill | Proficiency |
-|-------|------------|
-| ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) | ⭐⭐ |
-| ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) | ⭐⭐⭐ |
-| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) | ⭐⭐⭐ |
-
-</details>
-
-<details open>
-<summary><strong>⚙️ Tools & Platforms</strong></summary>
-
-| Skill | Proficiency |
-|-------|------------|
-| ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) | ⭐⭐⭐⭐ |
-| ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) | ⭐⭐⭐⭐ |
-| ![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white) | ⭐⭐⭐ |
-| ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white) | ⭐⭐⭐ |
-| ![PowerBI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black) | ⭐⭐⭐⭐⭐ |
-
-</details>
-
----
-
-## 🎓 Education & Certifications
-
-<details open>
-<summary><strong>📚 Academic Background</strong></summary>
-
-### 🎯 Master of Management in Business Data Analytics
-**University of Windsor** | Expected: 2026-2027
-
-### 📊 Data Science & ML Program
-**Scaler | India** | 2024-2026
-
-### 🏗️ Bachelor in Technology - Civil Engineering
-**India | 2015-2019**
-
-### 🔧 Bachelor of Civil Engineering
-**New Zealand | Major in Water & Wastewater Engineering** | 2020
-
-</details>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vraj04&theme=nord&show_icons=true&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vraj04&theme=nord&layout=compact&hide_border=true)
-
-</div>
-
----
-
-## 🚀 Current Focus
-
-- 🎓 Completing Master's in Business Data Analytics
-- 🤖 Building scalable AI & Machine Learning analytics projects
+## 📌 About Me
+- 🎓 I'm currently studying Data Analytics
+- 🤖 Learning AI through building scalable AI & BI Analytics Projects
 - 📊 Advancing Business Intelligence & Project Management skills
 - 🔍 Exploring advanced analytics and predictive modeling
 
----
+
+## 🧠 My Focus Areas
+- AI/ML Research
+- Business Analytics
+- Project Management
+
+
+## 📊 GitHub Stats & Trophies
+<p align="center">
+  <a href="https://github.com/Vraj04">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Vraj04&cache_seconds=7200&layout=compact&theme=nightowl&border_radius=10" alt="Vraj04's GitHub Stats" />
+  </a>
+  <img src="https://streak-stats.demolab.com/?user=Vraj04&theme=nightowl&hide_border=true&cache_seconds=86400" alt="Vraj04's GitHub Streak" width="49%" />
+</p>
+<p align="center">
+  <img src="https://trophy.ryglcloud.net/?username=Vraj04&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Raj Vaghasia's GitHub Trophies" />
+</p>
+<p align="center">
+  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=Vraj04&theme=nightowl&radius=10" alt="Vraj04's Activity Graph" />
+</p>
+<div align="center">
+  <img src="profile-3d-city.svg" alt="3D City" width="100%" />
+</div>
+
+
+## 🛠️ Languages & Tools
+
+<h3 align="center">Programming Languages</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />
+
+</p>
+
+<h3 align="center">Frontend</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" />
+
+</p>
+
+<h3 align="center">Database</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" />
+
+</p>
+
+<h3 align="center">DevOps & Cloud</h3>
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="Google Cloud" width="40" />
+
+</p>
+
+<h3 align="center">Tools</h3>
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />
+
+</p>
+
+<p align="center">
+  <a href="https://github.com/Vraj04">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Vraj04&langs_count=8&layout=compact&theme=nightowl&border_radius=10" alt="Top Languages" />
+  </a>
+</p>
+
+![Top language](https://stats.pphat.top/languages?username=Vraj04)
+<br/>
+
+## 🔗 Connect with Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/viraj10/"><img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF" alt="Raj Vaghasia's LinkedIn"/></a>&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@rajvaghasia9942"><img align="center" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&color=FF00FF" alt="Raj Vaghasia's YouTube"/></a>&nbsp;&nbsp;
+  <a href="mailto:vaghas13@uwindsor.ca"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="Raj Vaghasia's Email"/></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+</picture>
 
 <div align="center">
-  <strong>Let's collaborate on data-driven projects! 💡</strong>
-  <br>
-  <em>Profile last updated: May 2026</em>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
 </div>
+
