@@ -1,4 +1,4 @@
-# 👋 Raj Vaghasia
+# 👋 Hi, I'm Raj Vaghasia
 
 <div align="center">
   <p><strong>Data Science & AI | Business Intelligence | Full-Stack Development</strong></p>
