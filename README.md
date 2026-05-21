@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Vraj04">
-    <img src="https://komarev.com/ghpvc/?username=Vraj04&label=Profile%20views&color=00FFFF&style=flat-square" alt="Vraj04's profile views" />
+  <a href="https://komarev.com/ghpvc/?username=acquiraj">
+    <img src="https://komarev.com/ghpvc/?username=acquiraj&label=Profile%20views&color=00FFFF&style=flat-square" alt="acquiraj's profile views" />
   </a>
 </p>
 
@@ -27,7 +27,7 @@
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
-  <a href="https://github.com/Vraj04">
+  <a href="https://github.com/acquiraj">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=acquiraj&cache_seconds=7200&layout=compact&theme=nightowl&border_radius=10" alt="acquiraj's GitHub Stats" />
   </a>
   <img src="https://streak-stats.demolab.com/?user=acquiraj&theme=nightowl&hide_border=true&cache_seconds=86400" alt="acquiraj's GitHub Streak" width="49%" />
