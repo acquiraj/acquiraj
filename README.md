@@ -28,15 +28,15 @@
 ## 📊 GitHub Stats & Trophies
 <p align="center">
   <a href="https://github.com/Vraj04">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Vraj04&cache_seconds=7200&layout=compact&theme=nightowl&border_radius=10" alt="Vraj04's GitHub Stats" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=acquiraj&cache_seconds=7200&layout=compact&theme=nightowl&border_radius=10" alt="acquiraj's GitHub Stats" />
   </a>
-  <img src="https://streak-stats.demolab.com/?user=Vraj04&theme=nightowl&hide_border=true&cache_seconds=86400" alt="Vraj04's GitHub Streak" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=acquiraj&theme=nightowl&hide_border=true&cache_seconds=86400" alt="acquiraj's GitHub Streak" width="49%" />
 </p>
 <p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=Vraj04&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Raj Vaghasia's GitHub Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=acquiraj&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Raj Vaghasia's GitHub Trophies" />
 </p>
 <p align="center">
-  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=Vraj04&theme=nightowl&radius=10" alt="Vraj04's Activity Graph" />
+  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=acquiraj&theme=nightowl&radius=10" alt="acquiraj's Activity Graph" />
 </p>
 <div align="center">
   <img src="profile-3d-city.svg" alt="3D City" width="100%" />
@@ -81,12 +81,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Vraj04">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Vraj04&langs_count=8&layout=compact&theme=nightowl&border_radius=10" alt="Top Languages" />
+  <a href="https://github.com/acquiraj">
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=acquiraj&langs_count=8&layout=compact&theme=nightowl&border_radius=10" alt="Top Languages" />
   </a>
 </p>
 
-![Top language](https://stats.pphat.top/languages?username=Vraj04)
+![Top language](https://stats.pphat.top/languages?username=acquiraj)
 <br/>
 
 ## 🔗 Connect with Me
