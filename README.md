@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analytics%20|%20AI%20Enthusiast&descAlignY=55&descAlign=50">
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analytics%20|%20AI%20Enthusiast&descAlignY=55&descAlign=62">
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=acquiraj">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Welcome%20to%20My%20Profile&fontColor=FFFFFF&animation=fadeIn" alt="Banner" width="100%" />
+<img src="./assets/bannerr.gif" alt="Banner" width="100%" />
 
 ## 📌 About Me
 - 🎓 I'm currently studying Data Analytics
