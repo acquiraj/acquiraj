@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analyst&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analytics%20|%20AI%20Enthusiast&descAlignY=55&descAlign=50">
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=acquiraj">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<img src="https://i.pinimg.com/originals/62/12/48/6212485181ca055f760855d98d3ee4bc.gif" alt="Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&text=Welcome%20to%20My%20Profile&fontColor=FFFFFF&animation=fadeIn" alt="Banner" width="100%" />
 
 ## 📌 About Me
 - 🎓 I'm currently studying Data Analytics
@@ -81,8 +81,8 @@
 
 ## 🔗 Connect with Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/viraj10/"><img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF" alt="Raj Vaghasia's LinkedIn"/></a>&nbsp;&nbsp;
-  <a href="https://www.youtube.com/@rajvaghasia9942"><img align="center" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&color=FF00FF" alt="Raj Vaghasia's YouTube"/></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/viraj10/"><img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF" alt="Raj Vaghasia's LinkedIn" /></a>&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@rajvaghasia9942"><img align="center" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&color=FF00FF" alt="Raj Vaghasia's YouTube" /></a>&nbsp;&nbsp;
   <a href="mailto:vaghas13@uwindsor.ca"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="Raj Vaghasia's Email"/></a>
 </p>
 
