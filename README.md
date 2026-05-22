@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analytics%20|%20AI%20Enthusiast&descAlignY=55&descAlign=62">
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Raj%20Vaghasia&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Business%20Data%20Analytics%20|%20AI%20Enthusiast&descAlign=62&descAlignY=55">
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=acquiraj">
