@@ -22,8 +22,9 @@ pip install -r requirements.txt
 
 ## 1. Fetch the data
 
-Downloads the current CSV from Ontario's CKAN open data API. Requires
-internet access (this step can't run in network-restricted sandboxes).
+Downloads the current XLSX from Ontario's CKAN open data API (the dataset is
+published as an Excel file, updated monthly). Requires internet access (this
+step can't run in network-restricted sandboxes).
 
 ```bash
 python scripts/fetch_data.py
@@ -39,12 +40,13 @@ to see what resources the dataset actually exposes and adjust
 python scripts/load_db.py
 ```
 
-This normalizes the raw CSV columns into a `child_care_centres` table in
-`data/childcare.db`. Government CSV column names shift over time, so the
-loader auto-detects columns by keyword matching (see `FIELD_CANDIDATES` and
-`AGE_GROUP_LABELS` in `scripts/load_db.py`). **Check the console output** —
-it prints a warning listing any field it couldn't confidently map, plus the
-actual CSV headers, so you can fix the keyword list if needed.
+This normalizes the raw spreadsheet columns into a `child_care_centres`
+table in `data/childcare.db`. Government column names shift over time, so
+the loader auto-detects columns by keyword matching (see `FIELD_CANDIDATES`
+and `AGE_GROUP_LABELS` in `scripts/load_db.py`). **Check the console
+output** — it prints a warning listing any field it couldn't confidently
+map, plus the actual source headers, so you can fix the keyword list if
+needed.
 
 ## 3. Run the search app
 

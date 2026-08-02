@@ -1,8 +1,8 @@
-"""Normalize the raw Ontario child care CSV into a SQLite database.
+"""Normalize the raw Ontario child care XLSX into a SQLite database.
 
 Usage:
     python scripts/load_db.py
-    python scripts/load_db.py --csv path/to/file.csv --db path/to/out.db
+    python scripts/load_db.py --input path/to/file.xlsx --db path/to/out.db
 """
 import argparse
 import sqlite3
@@ -11,14 +11,13 @@ from typing import List, Optional
 
 import pandas as pd
 
-DEFAULT_CSV = Path(__file__).resolve().parent.parent / "data" / "licensed_child_care_facilities.csv"
+DEFAULT_INPUT = Path(__file__).resolve().parent.parent / "data" / "licensed_child_care_facilities.xlsx"
 DEFAULT_DB = Path(__file__).resolve().parent.parent / "data" / "childcare.db"
 
-# Substrings (lowercased) matched against CSV headers to locate each target
-# field. The government CSV's exact column names weren't verifiable from the
-# environment this was written in (no network access) -- if load_db.py warns
-# a field is unmapped, check the printed CSV headers and add the real column
-# name (or a substring of it) to the matching list below.
+# Substrings (lowercased) matched against the source headers to locate each
+# target field. If load_db.py warns a field is unmapped, check the printed
+# headers it lists and add the real column name (or a substring of it) to
+# the matching list below.
 FIELD_CANDIDATES = {
     "licence_number": ["licence number", "license number", "licence_no", "licence#"],
     "centre_name": ["child care centre", "agency name", "centre name", "facility name", "operator name"],
@@ -90,7 +89,7 @@ def normalize(df: pd.DataFrame) -> pd.DataFrame:
 
     if unmapped:
         print("WARNING: could not auto-detect a source column for: " + ", ".join(unmapped))
-        print("Available CSV columns:")
+        print("Available source columns:")
         for c in df.columns:
             print(f"  - {c}")
         print("Edit FIELD_CANDIDATES / AGE_GROUP_LABELS in load_db.py to fix the mapping.")
@@ -122,13 +121,10 @@ CREATE INDEX idx_age_groups ON child_care_centres (age_groups);
 """
 
 
-def load(csv_path: Path, db_path: Path) -> None:
-    try:
-        df = pd.read_csv(csv_path, encoding="utf-8", low_memory=False)
-    except UnicodeDecodeError:
-        df = pd.read_csv(csv_path, encoding="cp1252", low_memory=False)
+def load(input_path: Path, db_path: Path) -> None:
+    df = pd.read_excel(input_path, engine="openpyxl")
 
-    print(f"Read {len(df)} rows from {csv_path}")
+    print(f"Read {len(df)} rows from {input_path}")
     normalized = normalize(df)
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -146,14 +142,14 @@ def load(csv_path: Path, db_path: Path) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
+    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     args = parser.parse_args()
 
-    if not args.csv.exists():
-        raise SystemExit(f"CSV not found at {args.csv}. Run scripts/fetch_data.py first.")
+    if not args.input.exists():
+        raise SystemExit(f"Input file not found at {args.input}. Run scripts/fetch_data.py first.")
 
-    load(args.csv, args.db)
+    load(args.input, args.db)
 
 
 if __name__ == "__main__":

@@ -6,13 +6,14 @@ Usage:
 """
 import argparse
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import requests
 
 CKAN_BASE = "https://data.ontario.ca"
 DATASET_ID = "licensed-child-care-facilities-in-ontario"
-DEFAULT_OUT = Path(__file__).resolve().parent.parent / "data" / "licensed_child_care_facilities.csv"
+DEFAULT_OUT = Path(__file__).resolve().parent.parent / "data" / "licensed_child_care_facilities.xlsx"
 
 
 def get_package(dataset_id: str) -> dict:
@@ -25,16 +26,35 @@ def get_package(dataset_id: str) -> dict:
     return payload["result"]
 
 
-def pick_csv_resource(resources: list) -> dict:
-    csv_resources = [r for r in resources if (r.get("format") or "").upper() == "CSV"]
-    if not csv_resources:
-        raise RuntimeError("No CSV resource found on this dataset.")
-    preferred = [
-        r for r in csv_resources
-        if "archive" not in (r.get("name") or "").lower()
-        and "historic" not in (r.get("name") or "").lower()
+def _parse_month_year(name: str):
+    try:
+        return datetime.strptime(name.strip(), "%B %Y")
+    except ValueError:
+        return None
+
+
+def pick_data_resource(resources: list) -> dict:
+    # The dataset publishes the actual facility data as XLSX (not CSV), plus a
+    # separate "Data dictionary" XLSX and a couple of empty-url/WEB-format
+    # placeholder resources -- filter down to real, downloadable data files.
+    candidates = [
+        r for r in resources
+        if (r.get("format") or "").upper() == "XLSX"
+        and r.get("url")
+        and "dictionary" not in (r.get("name") or "").lower()
     ]
-    return (preferred or csv_resources)[0]
+    if not candidates:
+        raise RuntimeError("No downloadable XLSX data resource found on this dataset.")
+
+    # Resources are typically named by month (e.g. "June 2026") and updated
+    # monthly -- prefer the most recent by parsed date, falling back to
+    # whichever one is listed last if names don't parse as "Month Year".
+    dated = [(r, _parse_month_year(r.get("name") or "")) for r in candidates]
+    if any(d for _, d in dated):
+        dated = [(r, d) for r, d in dated if d is not None]
+        dated.sort(key=lambda pair: pair[1])
+        return dated[-1][0]
+    return candidates[-1]
 
 
 def download(url: str, out_path: Path) -> None:
@@ -70,7 +90,7 @@ def main():
         return
 
     try:
-        resource = pick_csv_resource(resources)
+        resource = pick_data_resource(resources)
     except Exception as exc:
         print(str(exc), file=sys.stderr)
         print("Available resources:", file=sys.stderr)
